@@ -1,6 +1,6 @@
 @font-face {
   font-family: "icomoon";
-  src: url(./assets/fonts/icomoon.ttf);
+  src: url(../../assets/fonts/icomoon.ttf);
 }
 
 body {
@@ -19,7 +19,7 @@ body {
   position: absolute;
 }
 .header__image-line {
-  background-image: url("./assets/img/header-image2.svg");
+  background-image: url("../../assets/img/header-image2.svg");
   width: 97.8033vw;
   height: 81.944vw;
   position: absolute;
@@ -31,7 +31,7 @@ body {
   max-height: 469px;
 }
 .header__image {
-  background-image: url("./assets/img/header-image1.svg");
+  background-image: url("../../assets/img/header-image1.svg");
   width: 92.56944vw;
   height: 75.97778vw;
   background-repeat: no-repeat;
@@ -108,7 +108,7 @@ h3 {
   justify-content: space-between;
   gap: 16px;
   padding: 220px 15vw 0;
-  background-image: url(./assets/img/Forma\ 2.svg);
+  background-image: url(../../assets/img/Forma\ 2.svg);
   background-repeat: no-repeat;
   background-position: 100% 60%;
   min-height: 660px;
