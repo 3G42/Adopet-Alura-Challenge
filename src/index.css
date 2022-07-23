@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "icomoon";
+  src: url(./assets/fonts/icomoon.ttf);
+}
+body {
+  background-color: #3772ff;
+  font-family: "Poppins", "icomoon", sans-serif;
+  color: #ffffff;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.header {
+  width: 100vw;
+}
+.header__image-line {
+  background-image: url("./assets/img/header-image2.svg");
+  width: 97.8033vw;
+  height: 81.944vw;
+  position: absolute;
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+.header__image {
+  background-image: url("./assets/img/header-image1.svg");
+  width: 92.56944vw;
+  height: 75.97778vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  /* padding: 47px 48px; */
+}
+.header__buttons--not-logged {
+  width: 100px;
+  height: 30px;
+  /* padding-bottom: 50px; */
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.header__buttons {
+  padding: 40px 38px 40px 48px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  /* right: 0; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+/* .header__buttons-user {
+  visibility: hidden;
+} */
+/* .header__buttons-home {
+  width: 19.2px;
+  height: 23px;
+} */
+.header__buttons-home i::before {
+  content: "\e905";
+  font-size: 22px;
+}
+.header__buttons-messages i::before {
+  content: "\e904";
+  font-size: 18px;
+}
+.header__buttons-user i::before {
+  content: "\e901";
+  font-size: 24px;
+  color: #36d6ad;
+}
+.header__buttons-user {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+h3 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 48px;
+}
+.main-section {
+  position: relative;
+  top: -98px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 0 15vw;
+}
+.main-section__logo {
+  width: 200px;
+}
+
+.main-section__text {
+  text-align: center;
+}
+.main-section__button-link {
+  background-color: #fc7071;
+  padding: 8px 8px;
+  font-weight: 600;
+  width: 180px;
+  height: 24px;
+  border-radius: 6px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+  text-align: center;
+}
+.footer {
+  background-color: #36d6ad;
+  padding: 11.4vw 16.4vw;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  box-sizing: border-box;
+}
